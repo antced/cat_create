@@ -1,0 +1,153 @@
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+h3 {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 5%;
+  color: lightgray;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.rowcontainer {
+  display: inline-block;
+  width: 720px;
+  height: 720px;
+  text-align: center;
+}
+
+.imagecontainer {
+  width: 720px;
+  height: 720px;
+  display: inline-block;
+}
+
+/* BODY PARTS */
+
+.img {
+  position: absolute;
+}
+
+.cat-tail {
+  visibility: hidden;
+  z-index: -1;
+}
+
+.cat-tail2 {
+  visibility: hidden;
+  z-index: 1;
+}
+
+.cat-eye {
+  visibility: hidden;;
+}
+
+.cat-nose {
+  visibility: hidden;;
+}
+
+.cat-ear {
+  visibility: hidden;
+}
+
+/* BUTTONS */
+
+.btn {
+  width: 100px;
+  height: 100px;
+}
+
+.white {
+  background-color: white;
+}
+
+.brown {
+  background-color: #b97a57;
+}
+
+.gray {
+  background-color: #7f7f7f;
+}
+
+.orange {
+  background-color: #ffb66c;
+}
+
+.yellow {
+  background-image: url("images/button-icons/yellow.png")
+}
+
+.red {
+  background-image: url("images/button-icons/red.png")
+}
+
+.blue {
+  background-image: url("images/button-icons/blue.png")
+}
+
+.closed {
+  background-image: url("images/button-icons/closed.png")
+}
+
+.fluffy {
+  background-image: url("images/button-icons/fluffy.png")
+}
+
+.stub {
+  background-image: url("images/button-icons/stub.png")
+}
+
+.curly {
+  background-image: url("images/button-icons/curly.png")
+}
+
+.thin {
+  background-image: url("images/button-icons/thin.png")
+}
+
+.down {
+  background-image: url("images/button-icons/down.png")
+}
+
+.big {
+  background-image: url("images/button-icons/big.png")
+}
+
+.small {
+  background-image: url("images/button-icons/small.png")
+}
+
+.fold {
+  background-image: url("images/button-icons/fold.png")
+}
+
+.nice {
+  background-image: url("images/button-icons/nice.png")
+}
+
+.quiet {
+  background-image: url("images/button-icons/quiet.png")
+}
+
+.evil {
+  background-image: url("images/button-icons/evil.png")
+}
+
+.tongue {
+  background-image: url("images/button-icons/tongue.png")
+}
